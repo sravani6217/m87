@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M87* | Black Hole Research Laboratory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <span class="brand-icon">◉</span>
+        <div>
+            <strong>M87* LABORATORY</strong>
+            <small>BLACK HOLE RESEARCH PORTAL</small>
+        </div>
+    </div>
+    <span class="status"><span class="status-dot"></span> INTERACTIVE MODEL</span>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h3>RESEARCH MODULES</h3>
+
+        <button class="nav-btn active" data-target="overview">01 · Overview</button>
+        <button class="nav-btn" data-target="gallery">02 · Image Gallery</button>
+        <button class="nav-btn" data-target="structure">03 · Structure</button>
+        <button class="nav-btn" data-target="schwarzschild">04 · Schwarzschild Theory</button>
+        <button class="nav-btn" data-target="rotation">05 · Accretion Disc</button>
+        <button class="nav-btn" data-target="jet">06 · Relativistic Jet</button>
+        <button class="nav-btn" data-target="spacetime">07 · Spacetime</button>
+        <button class="nav-btn" data-target="light">08 · Light Paths</button>
+        <button class="nav-btn" data-target="objects">09 · Object Experiment</button>
+        <button class="nav-btn" data-target="relativity">10 · Time & Redshift</button>
+        <button class="nav-btn" data-target="thermo">11 · Thermodynamics</button>
+        <button class="nav-btn" data-target="importance">12 · Scientific Importance</button>
+    
+
+        <div class="sidebar-note">
+            <strong>Research subject</strong>
+            <p>Messier 87* — supermassive black hole at the centre of the M87 galaxy.</p>
+        </div>
+    </aside>
+
+    <main class="content">
+
+        <!-- 01 OVERVIEW -->
+        <section id="overview" class="page active">
+            <div class="eyebrow">BLACK HOLE PROFILE / 01</div>
+            <h1>Messier 87*</h1>
+            <p class="lead">
+                A supermassive black hole whose shadow was captured
+                by the Event Horizon Telescope in 2019.
+            </p>
+
+            <div class="hero-visual">
+                <div class="hero-glow"></div>
+                <div class="hero-hole"></div>
+                <div class="hero-ring"></div>
+                <div class="hero-caption">M87* — CONCEPTUAL VISUALISATION</div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span>Estimated mass</span>
+                    <strong>6.5 billion</strong>
+                    <small>Solar masses</small>
+                </div>
+                <div class="stat-card">
+                    <span>Distance from Earth</span>
+                    <strong>~55 million</strong>
+                    <small>Light-years</small>
+                </div>
+                <div class="stat-card">
+                    <span>Schwarzschild radius</span>
+                    <strong>~19.2 billion</strong>
+                    <small>Kilometres, non-rotating estimate</small>
+                </div>
+                <div class="stat-card">
+                    <span>First black-hole image</span>
+                    <strong>2019</strong>
+                    <small>Event Horizon Telescope</small>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2>What is M87*?</h2>
+                <p>
+                    M87* is the supermassive black hole located near the
+                    centre of the giant elliptical galaxy Messier 87.
+                    Its enormous mass produces extreme spacetime curvature.
+                    Matter orbiting in its surroundings can become extremely
+                    hot and emit radiation.
+                </p>
+                <p>
+                    The bright ring in the famous EHT image is radiation
+                    from hot material around the black hole, shaped by
+                    gravitational lensing. The dark central region is
+                    associated with the black-hole shadow.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>What will this simulation demonstrate?</h2>
+                <ul>
+                    <li>How gravity affects spacetime near a black hole.</li>
+                    <li>Why light can bend around a black hole.</li>
+                    <li>How an accretion disc forms and emits radiation.</li>
+                    <li>How relativistic jets are associated with the black-hole environment.</li>
+                    <li>How time and light frequency are affected by gravity.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 02 IMAGE GALLERY -->
+        <section id="gallery" class="page">
+            <div class="eyebrow">OBSERVATIONAL ARCHIVE / 12</div>
+            <h1>M87* Image Gallery</h1>
+            <p class="lead">
+                Explore observational images and scientific visualisations
+                of M87*, its accretion environment and relativistic jet.
+            </p>
+
+            <div class="image-gallery">
+
+                <article class="gallery-item">
+                    <img src="images/m87 poster.png"
+                         alt="Poster of M87*">
+                    <h3>First Black Hole Image</h3>
+                    <p>The Event Horizon Telescope image released in 2019.</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="images/m87 1.jpg"
+                         alt="M878 image - 1 ">
+                    <h3>First Black Hole Image</h3>
+                    <p>The Event Horizon Telescope image released in 2019.</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="images/m87 2.jpg"
+                         alt="M87* image - 2">
+                    <h3>Accretion Disc</h3>
+                    <p>Hot material orbiting in the black-hole environment.</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="images/m87 3.jpg"
+                         alt="M87* image - 3">
+                    <h3>Relativistic Jet</h3>
+                    <p>A powerful outflow associated with M87*.</p>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="images/m87 4.jpg"
+                         alt="M87* image - 4">
+                    <h3>Messier 87 Galaxy</h3>
+                    <p>The giant elliptical galaxy containing M87*.</p>
+                </article>
+
+            </div>
+
+            <div class="info-card">
+                <h2>Image credits</h2>
+                <p>
+                    Add the source, organisation, image date and licence
+                    for each image before publishing this gallery.
+                    Suitable sources include the Event Horizon Telescope,
+                    NASA and ESA image archives.
+                </p>
+            </div>
+        </section>
+
+        <!-- 03 STRUCTURE -->
+        <section id="structure" class="page">
+            <div class="eyebrow">BLACK HOLE ANATOMY / 02</div>
+            <h1>Structure of M87*</h1>
+            <p class="lead">Explore the major regions surrounding a black hole.</p>
+
+            <div class="visual-card">
+                <canvas id="structureCanvas"></canvas>
+                <p class="visual-caption">Schematic cross-section — not to scale.</p>
+            </div>
+
+            <div class="info-card">
+                <h2>Important regions</h2>
+                <div class="definition">
+                    <h3>1. Event Horizon</h3>
+                    <p>The boundary beyond which no signal or light can escape to distant observers.</p>
+                </div>
+                <div class="definition">
+                    <h3>2. Photon Sphere</h3>
+                    <p>For an ideal non-rotating black hole, photons can travel on unstable circular orbits at 1.5 Schwarzschild radii.</p>
+                </div>
+                <div class="definition">
+                    <h3>3. Accretion Disc</h3>
+                    <p>Hot gas and plasma orbiting outside the event horizon. Friction and magnetic processes heat this material.</p>
+                </div>
+                <div class="definition">
+                    <h3>4. Relativistic Jet</h3>
+                    <p>A narrow outflow of energetic particles associated with the black-hole environment and magnetic fields.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04 SCHWARZSCHILD -->
+        <section id="schwarzschild" class="page">
+            <div class="eyebrow">GENERAL RELATIVITY / 03</div>
+            <h1>Schwarzschild Theory</h1>
+            <p class="lead">Understanding the gravitational radius of an ideal non-rotating black hole.</p>
+
+            <div class="equation">
+                <span>Schwarzschild Radius</span>
+                <strong>r<sub>s</sub> = 2GM / c²</strong>
+                <p>G = gravitational constant · M = mass · c = speed of light</p>
+            </div>
+
+            <div class="info-card">
+                <h2>What does the equation mean?</h2>
+                <p>
+                    Karl Schwarzschild found an exact solution to Einstein's
+                    field equations for the vacuum outside a spherical,
+                    non-rotating mass. The Schwarzschild radius identifies
+                    the event-horizon radius in this idealised model.
+                </p>
+                <p>
+                    If an object's mass is compressed within this radius,
+                    the Schwarzschild solution describes a black-hole
+                    event horizon.
+                </p>
+            </div>
+
+            <div class="experiment-card">
+                <h2>Change the mass</h2>
+                <label for="massSlider">Black-hole mass: <strong id="massValue">6.5</strong> billion solar masses</label>
+                <input id="massSlider" type="range" min="1" max="10" step="0.1" value="6.5">
+
+                <div class="result">
+                    <span>Calculated Schwarzschild radius</span>
+                    <strong id="radiusValue">19.2 billion km</strong>
+                </div>
+                <p class="small-note">
+                    This is an ideal Schwarzschild estimate. M87* may rotate,
+                    so a realistic rotating black hole requires the Kerr solution.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>Why use this theory?</h2>
+                <p>
+                    It provides a simple way to estimate the scale of a
+                    black-hole horizon from its mass. It also introduces
+                    the gravitational length scale used to describe
+                    photon orbits, light bending and relativistic effects.
+                </p>
+            </div>
+        </section>
+
+        <!-- 05 ACCRETION DISC -->
+        <section id="rotation" class="page">
+            <div class="eyebrow">MATTER & ENERGY / 04</div>
+            <h1>Accretion Disc</h1>
+            <p class="lead">Explore the motion of hot matter around M87*.</p>
+
+            <div class="visual-card">
+                <canvas id="discCanvas"></canvas>
+                <p class="visual-caption">Animated conceptual accretion-disc model.</p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="discSpeed">Disc animation speed: <strong id="discSpeedValue">5</strong></label>
+                <input id="discSpeed" type="range" min="1" max="10" value="5">
+                <button class="action-btn" id="discToggle">Pause disc</button>
+            </div>
+
+            <div class="info-card">
+                <h2>How does an accretion disc work?</h2>
+                <p>
+                    Gas and plasma can spiral towards a black hole while
+                    conserving angular momentum. Interactions within the
+                    disc transport angular momentum outward, allowing
+                    some material to move inward.
+                </p>
+                <p>
+                    The material heats up and emits electromagnetic
+                    radiation. The black hole itself is not shining;
+                    much of the observed emission comes from its
+                    surrounding environment.
+                </p>
+            </div>
+        </section>
+
+        <!-- 06 JET -->
+        <section id="jet" class="page">
+            <div class="eyebrow">HIGH-ENERGY ASTROPHYSICS / 05</div>
+            <h1>Relativistic Jet</h1>
+            <p class="lead">M87 is famous for its enormous jet of energetic particles.</p>
+
+            <div class="visual-card">
+                <canvas id="jetCanvas"></canvas>
+                <p class="visual-caption">Conceptual jet visualisation — not a plasma simulation.</p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="jetSpeed">Illustrative jet speed: <strong id="jetSpeedValue">0.90c</strong></label>
+                <input id="jetSpeed" type="range" min="10" max="99" value="90">
+                <div class="result">
+                    <span>Selected fraction of light speed</span>
+                    <strong id="jetResult">90% of c</strong>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2>How are jets produced?</h2>
+                <p>
+                    Strong magnetic fields in the rotating black-hole
+                    environment and surrounding accretion flow can help
+                    launch and collimate relativistic outflows.
+                </p>
+                <p>
+                    The jet does not emerge from inside the event horizon.
+                    It is launched from the region outside the horizon,
+                    where magnetic fields and plasma interact.
+                </p>
+            </div>
+        </section>
+
+        <!-- 07 SPACETIME -->
+        <section id="spacetime" class="page">
+            <div class="eyebrow">EINSTEIN'S GENERAL RELATIVITY / 06</div>
+            <h1>Spacetime Curvature</h1>
+            <p class="lead">Mass and energy influence the geometry of spacetime.</p>
+
+            <div class="visual-card">
+                <canvas id="spacetimeCanvas"></canvas>
+                <p class="visual-caption">Illustrative curved-grid representation.</p>
+            </div>
+
+            <div class="info-card">
+                <h2>What is spacetime?</h2>
+                <p>
+                    General Relativity describes gravity not simply as a
+                    pulling force, but as the effect of curved spacetime.
+                    Matter and energy influence spacetime geometry, and
+                    freely falling objects follow paths called geodesics.
+                </p>
+                <p>
+                    Near M87*, the curvature is extreme. This affects
+                    the motion of matter and the paths followed by light.
+                </p>
+            </div>
+
+            <div class="equation">
+                <span>Einstein Field Equations</span>
+                <strong>G<sub>μν</sub> + Λg<sub>μν</sub> = 8πG T<sub>μν</sub> / c⁴</strong>
+                <p>Geometry of spacetime is related to matter and energy.</p>
+            </div>
+        </section>
+
+        <!-- 08 LIGHT PATHS -->
+        <section id="light" class="page">
+            <div class="eyebrow">GRAVITATIONAL LENSING / 07</div>
+            <h1>How Light Travels Near M87*</h1>
+            <p class="lead">Light follows curved paths through curved spacetime.</p>
+
+            <div class="visual-card">
+                <canvas id="lightCanvas"></canvas>
+                <p class="visual-caption">Simplified light-ray illustration, not a numerical geodesic solution.</p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="impactSlider">
+                    Illustrative ray distance: <strong id="impactValue">3.0</strong> Rs
+                </label>
+                <input id="impactSlider" type="range" min="1.1" max="8" step="0.1" value="3">
+
+                <div class="result">
+                    <span>Model interpretation</span>
+                    <strong id="lightResult">Strong bending region</strong>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2>What happens to light?</h2>
+                <p>
+                    Light travels along null geodesics in spacetime.
+                    A ray passing near a black hole can be deflected
+                    by gravity. The closer it passes, the stronger
+                    the deflection generally becomes.
+                </p>
+                <p>
+                    In the Schwarzschild model, the photon sphere is at
+                    1.5 Rs. The critical impact parameter for a ray
+                    arriving from far away is approximately 2.598 Rs.
+                    These are different quantities.
+                </p>
+                <p>
+                    A ray that crosses the event horizon cannot escape
+                    back to distant space.
+                </p>
+            </div>
+        </section>
+
+        <!-- 09 OBJECT EXPERIMENT -->
+        <section id="objects" class="page">
+            <div class="eyebrow">ORBITAL MOTION / 08</div>
+            <h1>Object Experiment</h1>
+            <p class="lead">Explore how distance affects an orbiting object's motion.</p>
+
+            <div class="visual-card">
+                <canvas id="objectCanvas"></canvas>
+                <p class="visual-caption">Illustrative orbital motion, not an integrated relativistic orbit.</p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="objectDistance">
+                    Distance from centre: <strong id="objectDistanceValue">8</strong> Rs
+                </label>
+                <input id="objectDistance" type="range" min="3" max="20" value="8">
+
+                <label for="objectSpeed">
+                    Object speed: <strong id="objectSpeedValue">50</strong>%
+                </label>
+                <input id="objectSpeed" type="range" min="10" max="100" value="50">
+
+                <div class="result">
+                    <span>Model interpretation</span>
+                    <strong id="objectResult">Relatively close orbit</strong>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2>What is an orbit?</h2>
+                <p>
+                    An orbit is a trajectory followed under gravity.
+                    In General Relativity, freely falling objects follow
+                    timelike geodesics. Their possible orbits depend on
+                    mass, angular momentum and spacetime geometry.
+                </p>
+                <p>
+                    For an ideal Schwarzschild black hole, the innermost
+                    stable circular orbit for a test particle is at 6 Rs.
+                    This is a reference result, not a universal boundary
+                    for rotating black holes.
+                </p>
+            </div>
+        </section>
+
+        <!-- 10 TIME AND REDSHIFT -->
+        <section id="relativity" class="page">
+            <div class="eyebrow">RELATIVISTIC EFFECTS / 09</div>
+            <h1>Time Dilation & Gravitational Redshift</h1>
+            <p class="lead">Gravity affects clock rates and the frequency of light.</p>
+
+            <div class="experiment-card">
+                <label for="timeSlider">
+                    Observer radius: <strong id="timeRadiusValue">5</strong> Rs
+                </label>
+                <input id="timeSlider" type="range" min="1.1" max="20" step="0.1" value="5">
+
+                <div class="result">
+                    <span>Clock-rate ratio (static Schwarzschild observer)</span>
+                    <strong id="timeResult">0.894</strong>
+                </div>
+                <p id="timeExplanation" class="small-note">
+                    A static clock at this radius runs slower relative to a clock far away.
+                </p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="redshiftSlider">
+                    Light emission radius: <strong id="redshiftRadiusValue">5</strong> Rs
+                </label>
+                <input id="redshiftSlider" type="range" min="1.1" max="20" step="0.1" value="5">
+
+                <div class="result">
+                    <span>Frequency ratio received far away</span>
+                    <strong id="redshiftResult">0.894</strong>
+                </div>
+                <p class="small-note">
+                    Illustrative gravitational redshift for a stationary emitter
+                    and distant stationary observer in Schwarzschild spacetime.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>Gravitational time dilation</h2>
+                <p>
+                    In a gravitational field, clocks at different
+                    gravitational potentials can accumulate different
+                    amounts of proper time. In the Schwarzschild solution,
+                    a stationary clock outside the horizon has a rate
+                    factor of √(1 − Rs/r) relative to a distant clock.
+                </p>
+                <h2>Gravitational redshift</h2>
+                <p>
+                    Light travelling outward from a gravitational field
+                    loses frequency as measured by a distant stationary
+                    observer. Its wavelength is increased.
+                </p>
+            </div>
+        </section>
+
+        <!-- 11 THERMODYNAMICS -->
+        <section id="thermo" class="page">
+            <div class="eyebrow">BLACK HOLE THERMODYNAMICS / 10</div>
+            <h1>Temperature & Entropy</h1>
+            <p class="lead">Black holes have thermodynamic properties in quantum theory.</p>
+
+            <div class="equation">
+                <span>Hawking Temperature — Schwarzschild black hole</span>
+                <strong>T = ℏc³ / (8πGMk<sub>B</sub>)</strong>
+                <p>Temperature is inversely proportional to black-hole mass.</p>
+            </div>
+
+            <div class="experiment-card">
+                <label for="thermoMass">Mass: <strong id="thermoMassValue">6.5</strong> billion solar masses</label>
+                <input id="thermoMass" type="range" min="1" max="10" step="0.1" value="6.5">
+
+                <div class="result">
+                    <span>Approximate Hawking temperature</span>
+                    <strong id="temperatureResult">9.5 × 10⁻¹⁸ K</strong>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h2>Hawking radiation</h2>
+                <p>
+                    Quantum field theory in curved spacetime predicts
+                    that black holes have a temperature and can emit
+                    Hawking radiation. For astrophysical black holes,
+                    this temperature is extraordinarily small.
+                </p>
+                <h2>Black-hole entropy</h2>
+                <p>
+                    Bekenstein and Hawking showed that black-hole entropy
+                    is proportional to the area of the event horizon,
+                    rather than the volume inside it.
+                </p>
+            </div>
+
+            <div class="equation">
+                <span>Bekenstein–Hawking Entropy</span>
+                <strong>S = k<sub>B</sub> A c³ / (4Gℏ)</strong>
+                <p>A = event-horizon area.</p>
+            </div>
+
+            <p class="small-note">
+                These are theoretical results. This educational module
+                calculates ideal Schwarzschild values, not measured
+                temperature or entropy of M87*.
+            </p>
+        </section>
+
+        <!-- 12 IMPORTANCE -->
+        <section id="importance" class="page">
+            <div class="eyebrow">RESEARCH CONTEXT / 11</div>
+            <h1>Why M87* Matters Today</h1>
+            <p class="lead">Black holes are natural laboratories for extreme physics.</p>
+
+            <div class="info-card">
+                <h2>1. Testing General Relativity</h2>
+                <p>
+                    The observed black-hole environment allows scientists
+                    to test predictions of gravity in an extreme regime.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>2. Understanding galaxy evolution</h2>
+                <p>
+                    Powerful jets and energy released by accretion can
+                    influence gas around galaxies and affect star formation.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>3. Studying high-energy astrophysics</h2>
+                <p>
+                    M87* provides an opportunity to investigate plasma,
+                    magnetic fields, radiation and relativistic particle flows.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h2>4. Improving imaging techniques</h2>
+                <p>
+                    The Event Horizon Telescope combines radio observatories
+                    across Earth using very-long-baseline interferometry.
+                    This demonstrates the importance of advanced imaging,
+                    signal processing and international scientific collaboration.
+                </p>
+            </div>
+
+            <div class="info-card highlight-card">
+                <h2>Research objective of this project</h2>
+                <p>
+                    To explore how the mass and extreme gravitational
+                    environment of M87* influence the event horizon,
+                    accretion processes, light propagation and relativistic
+                    phenomena through interactive educational models.
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <p>M87* INTERACTIVE RESEARCH LABORATORY</p>
+            <small>Educational scientific visualisation · Black Hole Expo 2026</small>
+        </footer>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
